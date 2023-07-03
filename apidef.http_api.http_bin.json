@@ -266,6 +266,7 @@
 		"providers": [],
 		"segregate_by_client": false
 	},
+	"org_id": "global",
 	"pinned_public_keys": {},
 	"protocol": "",
 	"proxy": {
