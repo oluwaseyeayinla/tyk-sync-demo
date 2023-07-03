@@ -1,0 +1,29 @@
+{
+  "id": "7cc7a7d285b54fb997e7edc55ee815ae",
+  "rate": 1000,
+  "per": 1,
+  "quota_max": 100,
+  "quota_renewal_rate": 60,
+  "max_query_depth": 5,
+  "access_rights": {
+    "iashh9tmfek86wyegfcfadhis7ncq3m3": {
+      "api_id": "iashh9tmfek86wyegfcfadhis7ncq3m3",
+      "api_name": "HTTP Bin API",
+      "versions": [
+        "Default"
+      ],
+      "allowed_types": [],
+      "restricted_types": []
+    }
+  },
+  "org_id": "global",
+  "hmac_enabled": false,
+  "active": true,
+  "partitions": {
+    "acl": false,
+    "complexity": true,
+    "per_api": false,
+    "quota": false,
+    "rate_limit": false
+  }
+}
