@@ -6,8 +6,8 @@
   "quota_renewal_rate": 60,
   "max_query_depth": 5,
   "access_rights": {
-    "iashh9tmfek86wyegfcfadhis7ncq3m3": {
-      "api_id": "iashh9tmfek86wyegfcfadhis7ncq3m3",
+    "22b93c9dba9248b550ea77c3321b9744": {
+      "api_id": "22b93c9dba9248b550ea77c3321b9744",
       "api_name": "HTTP Bin API",
       "versions": [
         "Default"

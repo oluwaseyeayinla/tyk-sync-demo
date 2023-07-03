@@ -1,20 +1,24 @@
 {
-  "type": "apidef",
+  "type": "oas",
   "files": [
     {
-      "file": "./apidef.http_api.http_bin.json",
-      "api_id": "22b93c9dba9248b550ea77c3321b9744",
+      "file": "./oas.v2.microsoft.demo.conference.api.json",
+      "org_id": "v2",
       "oas": {
-        "override_target": "https://httpbin.org/anything",
-        "override_listen_path": "/http_bin/",
-        "version_name": "default"
+        "override_target": "https://conferenceapi.azurewebsites.net",
+        "override_listen_path": "/oasv2/",
+        "version_name": "2.0.0"
+      }
+    },
+    {
+      "file": "./oas.v3.microsoft.demo.conference.api.json",
+      "org_id": "v3",
+      "oas": {
+        "override_target": "https://conferenceapi.azurewebsites.net",
+        "override_listen_path": "/oasv3/",
+        "version_name": "2.0.0"
       }
     }
   ],
-  "policies": [
-    {
-      "file": "./tyk.pol_def.missing_api_def.json",
-      "id": "7cc7a7d285b54fb997e7edc55ee815ae"
-    }
-  ]
+  "policies": []
 }
