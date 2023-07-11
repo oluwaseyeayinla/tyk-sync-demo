@@ -1,5 +1,5 @@
 {
-  "type": "oas",
+  "type": "apidef",
   "files": [
     {
       "file": "./import_oas/oas.v2.gateway.full_properties.json",
