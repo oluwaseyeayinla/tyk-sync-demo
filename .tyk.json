@@ -1,0 +1,25 @@
+{
+  "type": "oas",
+  "files": [
+    {
+      "file": "./import_oas_api/oas.v2.gateway.full_properties.json",
+      "api_id": "47c19e66dea14f43beb7f25872c4e086",
+      "org_id": "global",
+      "oas": {
+        "override_target": "https://conferenceapi.azurewebsites.net",
+        "override_listen_path": "/oasv2/",
+        "strip_listen_path": true,
+        "version_name": "2.0.0"
+      }
+    },
+    {
+      "file": "./import_oas_api/oas.v3.dashboard.minimal_properties.json",
+      "org_id": "global",
+      "oas": {
+        "override_listen_path": "/oasv3/",
+        "version_name": "2.0.0"
+      }
+    }
+  ],
+  "policies": []
+}
