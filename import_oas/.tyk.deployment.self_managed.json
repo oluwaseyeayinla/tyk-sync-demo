@@ -2,8 +2,9 @@
   "type": "oas",
   "files": [
     {
-      "file": "./import_oas/oas.v2.gateway.full_properties.json",
+      "file": "./oas.v2.gateway.full_properties.json",
       "api_id": "47c19e66dea14f43beb7f25872c4e086",
+      "db_id": "bf7bb71c0c494d86b2bb9a7c5efcb425",
       "org_id": "global",
       "oas": {
         "override_target": "https://conferenceapi.azurewebsites.net",
@@ -13,7 +14,8 @@
       }
     },
     {
-      "file": "./import_oas/oas.v3.dashboard.minimal_properties.json",
+      "file": "./oas.v3.dashboard.minimal_properties.json",
+      "db_id": "9f55a0c8af424d1790dc9d29376c709a",
       "org_id": "global",
       "oas": {
         "override_listen_path": "/oasv3/",
