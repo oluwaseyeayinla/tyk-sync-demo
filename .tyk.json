@@ -14,6 +14,7 @@
     },
     {
       "file": "./import_oas/oas.v3.dashboard.minimal_properties.json",
+      "api_id": "4a9b07df93814826be80434d4e72e6c3",
       "org_id": "global",
       "oas": {
         "override_listen_path": "/oasv3/",
