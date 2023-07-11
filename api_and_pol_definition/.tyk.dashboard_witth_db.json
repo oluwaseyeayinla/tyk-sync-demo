@@ -1,0 +1,26 @@
+{
+  "type": "apidef",
+  "files": [
+    {
+      "file": "./apidef.http_api.http_bin.json",
+      "api_id": "22b93c9dba9248b550ea77c3321b9744",
+      "db_id": "1516fee923e9416188360215520eaa1d",
+      "org_id": "74d475dada734f80845b3680b4da1818",
+      "oas": {}
+    },
+    {
+      "file": "./apidef.http_api.gateway_liveness_check.json",
+      "oas": {}
+    }
+  ],
+  "policies": [
+    {
+      "file": "./tyk.pol_def.http_bin.json",
+      "id": "7cc7a7d285b54fb997e7edc55ee815ae"
+    },
+    {
+      "file": "./tyk.pol_def.missing_api_def.json",
+      "id": "ab11e06793144e638deecee3f54f61df"
+    }
+  ]
+}
